@@ -4,7 +4,7 @@ import re
 from hashlib import md5#sha1, sha224, sha256, sha384, sha512
 from cryptography.fernet import Fernet
 
-Password_Hash_Key = 'ce85b1d12f2a644cbd199cec4e8c801e'#password must be under 43
+Password_Hash_Key = 'you can made this from "setting pwd.py" file'#password must be under 43
 dir_Path = os.path.dirname(os.path.realpath(__file__))
 EnDe_Key = ''
 
