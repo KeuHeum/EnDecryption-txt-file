@@ -48,7 +48,7 @@ def main(message):
         main('Password must be Engilsh and Number. ( [a-z], [A-Z], [0-9] )')
 
     elif md5(input_answer.encode('utf-8')).hexdigest() == Password_Hash_Key:
-        print('Correct password')
+        print('>>> Correct password')
         endecrypt(input_answer)
 
     else:
