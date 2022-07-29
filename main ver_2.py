@@ -1,4 +1,4 @@
-#version 2.0.0
+#version 2.0.1
 import os
 import re
 from hashlib import md5#sha1, sha224, sha256, sha384, sha512
