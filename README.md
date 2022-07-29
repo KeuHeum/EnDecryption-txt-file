@@ -4,7 +4,7 @@ Encryption and Decryption .txt file
 Version Explanation        
 =============
 + ver 1: basic           
-+ ver 2: file name EnDecryption             
++ ver 2: add file name EnDecryption
 
 ETC
 =============
