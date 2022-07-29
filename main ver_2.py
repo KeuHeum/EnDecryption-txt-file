@@ -32,6 +32,7 @@ def endecrypt_file(password):
                     f.write(decryption_data)#write decryption data
 
                     file_name = endecrypt('de', i.replace('.txt', '').replace('encry - ', ''))
+                    decryption_data = decryption_data.replace('\n', '')
                     print(f"{file_name} | Decryption Success: {decryption_data[0:20]+'...' if len(decryption_data) > 20 else decryption_data}")
                 
                 os.rename(i , file_name+'.txt')
