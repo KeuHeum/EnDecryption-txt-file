@@ -71,6 +71,7 @@ def password_input_check(message):
         password_input_check('Password must be Engilsh and Number. ( [a-z], [A-Z], [0-9] )')
 
     elif md5(input_answer.encode('utf-8')).hexdigest() == Password_Hash_Key:
+        os.system('cls')
         print('>>> Correct password\n')
         endecrypt_file(input_answer)
 
