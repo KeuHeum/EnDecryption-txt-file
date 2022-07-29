@@ -1,4 +1,4 @@
-#ver 1
+#version 1.0.0
 import os
 import re
 from hashlib import md5#sha1, sha224, sha256, sha384, sha512
